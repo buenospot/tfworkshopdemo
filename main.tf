@@ -2,7 +2,7 @@ provider "aws" {
   region = var.region
   default_tags {
     tags = {
-      Name        = "markb-kyndryl"
+      Name        = "markb-markb"
       Environment = var.environment
       Owner       = "TFProviders - test"
       Project     = "Test"
@@ -102,7 +102,7 @@ resource "aws_instance" "web" {
 
   tags = {
     Name     = "${var.environment}_demo_2021_${count.index}"
-    Customer = "Kyndryl"
+    Customer = "Kaiser"
   }
 }
 
