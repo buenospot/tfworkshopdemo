@@ -102,7 +102,7 @@ resource "aws_instance" "web" {
 
   tags = {
     Name     = "${var.environment}_demo_2021_${count.index}"
-    Customer = "Kaiser"
+    Customer = "KaiserPermanente"
   }
 }
 
